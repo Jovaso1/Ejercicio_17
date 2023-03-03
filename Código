@@ -1,0 +1,22 @@
+package ejercicio_17;
+import java.util.Scanner;
+
+public class Ejercicio_17 {
+
+    public static void main(String[] args) {
+        double radio, area_circulo, long_circunferencia;
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.print("Valor del radio: ");
+        radio = teclado.nextDouble();
+        area_circulo = Math.PI * Math.pow(radio,2);
+        long_circunferencia = radio * 2 * Math.PI;
+        
+        System.out.println("El area del circulo es " + area_circulo);
+        System.out.println("La longitud de la circunferencia es " + long_circunferencia);
+        
+        
+        
+    }
+    
+}
